@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0271bcd-1605-4ca4-968d-d2b0a077df54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Flexisaf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Texture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/art.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/ball.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/car.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/ceramic.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/design1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/design2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/house.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/idea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/nft.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/purse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/shoe.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/shoes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/stock.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/vase.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="c0271bcd-1605-4ca4-968d-d2b0a077df54" name="Changes" comment="Add layout for homepage with navbar, search bar, and image gallery&#10;- Implemented navbar with responsive toggle&#10;- Added search bar with styled input&#10;- Created image gallery using CSS Grid">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +22,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VictorDesigns1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VictorDesigns1/Flexisaf.git",
+    "accountId": "9891d94c-ba3b-48a2-93d4-9132209905d5"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -61,7 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aon/PycharmProjects/Flexisaf/Images"
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/aon/PycharmProjects/Flexisaf/Images",
+    "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +69,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -85,6 +82,40 @@
       <option name="presentableId" value="Default" />
       <updated>1731181475521</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add layout for homepage with navbar, search bar, and image gallery&#10;- Implemented navbar with responsive toggle&#10;- Added search bar with styled input&#10;- Created image gallery using CSS Grid">
+      <option name="closed" value="true" />
+      <created>1731430174177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731430174177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="23acb1cf-4252-4391-a006-22b76de22e95" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="23acb1cf-4252-4391-a006-22b76de22e95">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add layout for homepage with navbar, search bar, and image gallery&#10;- Implemented navbar with responsive toggle&#10;- Added search bar with styled input&#10;- Created image gallery using CSS Grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add layout for homepage with navbar, search bar, and image gallery&#10;- Implemented navbar with responsive toggle&#10;- Added search bar with styled input&#10;- Created image gallery using CSS Grid" />
   </component>
 </project>
