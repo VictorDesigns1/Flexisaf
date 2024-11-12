@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Filter/Search Design</title>
     <link rel="stylesheet" href="style.css">
@@ -18,60 +18,74 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="navbar-toggle" aria-label="Toggle navigation">
-            ☰
-        </button>
+        <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
     </nav>
 </header>
 
-
+<!-- Hero Section -->
 <header class="hero">
     <h1>Search</h1>
     <p>Millions of works, articles, and collections.</p>
     <div class="search-bar">
         <input type="text" placeholder="Search by...">
     </div>
+    <div class="filter-container">
+        <input type="radio" name="filter" id="all" checked>
+        <label for="all">All</label>
+
+        <input type="radio" name="filter" id="design">
+        <label for="design">Design</label>
+
+        <input type="radio" name="filter" id="idea">
+        <label for="idea">Idea</label>
+
+        <input type="radio" name="filter" id="fashion">
+        <label for="fashion">Fashion</label>
+
+        <input type="radio" name="filter" id="art">
+        <label for="art">Art</label>
+    </div>
 </header>
 
 
 <section class="image-gallery">
-    <div class="item">
+    <div class="item design">
         <img src="images/design1.jpg" alt="design image">
     </div>
-    <div class="item">
+    <div class="item idea">
         <img src="images/idea.jpg" alt="idea image">
     </div>
-    <div class="item">
+    <div class="item design">
         <img src="images/design2.jpg" alt="design image">
     </div>
-    <div class="item">
+    <div class="item fashion">
         <img src="images/shoes.jpg" alt="shoes image">
     </div>
-    <div class="item">
+    <div class="item fashion">
         <img src="images/purse.jpg" alt="purse image">
     </div>
-    <div class="item">
-        <img src="images/car.jpg" alt="car image">
-    </div>
-    <div class="item">
+    <div class="item art">
         <img src="images/art.jpg" alt="art image">
     </div>
-    <div class="item">
-        <img src="images/Texture.jpg" alt="Texture image">
+    <div class="item idea">
+        <img src="images/Texture.jpg" alt="texture image">
     </div>
-    <div class="item">
+    <div class="item art">
         <img src="images/house.jpg" alt="house image">
     </div>
- </section>
+</section>
 
-<script>
-    const toggleButton = document.querySelector('.navbar-toggle');
-    const navbarLinks = document.querySelector('.navbar-links');
 
-    toggleButton.addEventListener('click', () => {
-        navbarLinks.classList.toggle('active');
-    });
-</script>
+<footer class="footer-navbar">
+    <nav class="footer-menu">
+        <ul class="footer-links">
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#contact-footer">Contact Us</a></li>
+        </ul>
+    </nav>
+</footer>
 
 </body>
 </html>

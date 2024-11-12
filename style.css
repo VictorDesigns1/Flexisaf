@@ -59,7 +59,7 @@
     border: 1px solid #ccc;
 }
 
-/* Image Gallery Section */
+
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -74,7 +74,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Navbar Toggle (Mobile) */
+
 @media (max-width: 768px) {
     .navbar-links {
         display: none;
@@ -94,4 +94,36 @@
         padding: 10px;
         font-size: 18px;
     }
+  .footer-navbar {
+    background: #000000;
+    padding: 20px;
+    text-align: center;
+   }
+   .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.footer-links li {
+    margin:  15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #f9c74f;
+}
+
+
